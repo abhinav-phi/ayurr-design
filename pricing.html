@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - AyurDiet</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pricing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="logo">
+                        <i class="fas fa-leaf logo-icon"></i>
+                        <span class="logo-text">AyurDiet</span>
+                    </div>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="features.html" class="nav-link">Features</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="pricing.html" class="nav-link active">Pricing</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="dashboard.html" class="nav-link">Dashboard</a>
+                </div>
+                
+                <div class="nav-buttons">
+                    <a href="login.html" class="btn btn-outline">Login</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pricing-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Simple, Transparent <span class="text-primary">Pricing</span>
+                </h1>
+                <p class="hero-description">
+                    Choose the perfect plan for your Ayurvedic nutrition practice or personal wellness journey
+                </p>
+                <div class="pricing-toggle">
+                    <span class="toggle-label">Monthly</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="pricing-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-label">Annual <span class="discount-badge">Save 20%</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="pricing-plans">
+        <div class="container">
+            <div class="plans-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Basic</h3>
+                        <p class="plan-description">Perfect for individual practitioners starting their journey</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount monthly-price">2,999</span>
+                            <span class="amount annual-price" style="display: none;">2,399</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-billing">Billed monthly</p>
+                    </div>
+                    
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 50 patients</li>
+                            <li><i class="fas fa-check"></i> Basic patient records</li>
+                            <li><i class="fas fa-check"></i> AI diet recommendations</li>
+                            <li><i class="fas fa-check"></i> Food database access</li>
+                            <li><i class="fas fa-check"></i> Mobile app for patients</li>
+                            <li><i class="fas fa-check"></i> Email support</li>
+                            <li><i class="fas fa-times text-gray"></i> Advanced analytics</li>
+                            <li><i class="fas fa-times text-gray"></i> Custom branding</li>
+                            <li><i class="fas fa-times text-gray"></i> API access</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <a href="dietician-signup.html" class="btn btn-outline btn-large">Start Free Trial</a>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3 class="plan-name">Pro</h3>
+                        <p class="plan-description">Ideal for established practitioners with growing practices</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount monthly-price">5,999</span>
+                            <span class="amount annual-price" style="display: none;">4,799</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-billing">Billed monthly</p>
+                    </div>
+                    
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 200 patients</li>
+                            <li><i class="fas fa-check"></i> Advanced patient records</li>
+                            <li><i class="fas fa-check"></i> AI diet recommendations</li>
+                            <li><i class="fas fa-check"></i> Complete food database</li>
+                            <li><i class="fas fa-check"></i> Mobile app for patients</li>
+                            <li><i class="fas fa-check"></i> Advanced analytics</li>
+                            <li><i class="fas fa-check"></i> Validation engine</li>
+                            <li><i class="fas fa-check"></i> Food combo checker</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                            <li><i class="fas fa-times text-gray"></i> Custom branding</li>
+                            <li><i class="fas fa-times text-gray"></i> API access</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <a href="dietician-signup.html" class="btn btn-primary btn-large">Start Free Trial</a>
+                    </div>
+                </div>
+
+                <!-- Clinic Pack -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Clinic Pack</h3>
+                        <p class="plan-description">Comprehensive solution for clinics and healthcare centers</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount monthly-price">12,999</span>
+                            <span class="amount annual-price" style="display: none;">10,399</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-billing">Billed monthly</p>
+                    </div>
+                    
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited patients</li>
+                            <li><i class="fas fa-check"></i> Multi-practitioner access</li>
+                            <li><i class="fas fa-check"></i> Advanced patient records</li>
+                            <li><i class="fas fa-check"></i> AI diet recommendations</li>
+                            <li><i class="fas fa-check"></i> Complete food database</li>
+                            <li><i class="fas fa-check"></i> Advanced analytics</li>
+                            <li><i class="fas fa-check"></i> Validation engine</li>
+                            <li><i class="fas fa-check"></i> Food combo checker</li>
+                            <li><i class="fas fa-check"></i> Custom branding</li>
+                            <li><i class="fas fa-check"></i> API access</li>
+                            <li><i class="fas fa-check"></i> Dedicated support</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="plan-cta">
+                        <a href="contact.html" class="btn btn-outline btn-large">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient Pricing -->
+    <section class="patient-pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">For Patients</h2>
+                <p class="section-description">
+                    Access personalized Ayurvedic nutrition guidance
+                </p>
+            </div>
+            
+            <div class="patient-plan">
+                <div class="patient-card">
+                    <div class="patient-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Personal Wellness Plan</h3>
+                    <div class="patient-price">
+                        <span class="free-text">FREE</span>
+                        <span class="forever">Forever</span>
+                    </div>
+                    <p class="patient-description">
+                        Complete access to personalized diet plans, progress tracking, and expert consultations
+                    </p>
+                    <div class="patient-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Personalized diet charts</li>
+                            <li><i class="fas fa-check"></i> Progress tracking</li>
+                            <li><i class="fas fa-check"></i> Expert consultations</li>
+                            <li><i class="fas fa-check"></i> Mobile app access</li>
+                            <li><i class="fas fa-check"></i> Wellness tips & reminders</li>
+                        </ul>
+                    </div>
+                    <div class="patient-cta">
+                        <a href="patient-signup.html" class="btn btn-primary btn-large">Get Started Free</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="pricing-faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">
+                    Everything you need to know about our pricing
+                </p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Is there a free trial available?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a 14-day free trial for all practitioner plans. No credit card required to start your trial.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Is the patient app really free?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! The patient app is completely free forever. Patients only pay consultation fees to their chosen practitioners.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Can I change my plan anytime?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately with prorated billing.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What payment methods do you accept?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept all major credit cards, debit cards, UPI, net banking, and digital wallets for your convenience.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Is my data secure?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we use bank-level encryption and comply with healthcare data protection standards to keep your information secure.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you offer custom enterprise solutions?</h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer custom solutions for large healthcare organizations. Contact our sales team for enterprise pricing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Practice?</h2>
+                <p>Start your free trial today and experience the power of Ayurvedic nutrition technology</p>
+                <div class="cta-buttons">
+                    <a href="dietician-signup.html" class="btn btn-primary btn-large">Start Free Trial</a>
+                    <a href="contact.html" class="btn btn-outline btn-large">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <i class="fas fa-leaf logo-icon"></i>
+                            <span class="logo-text">AyurDiet</span>
+                        </div>
+                        <p>Bridging ancient Ayurvedic wisdom with modern nutrition science for optimal health and wellness.</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AyurDiet. All rights reserved. | Made with ❤️ for holistic wellness</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/pricing.js"></script>
+</body>
+</html>
